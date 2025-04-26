@@ -9,6 +9,9 @@
     font-family: fonts.$def-font;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     max-width: 1920px;
@@ -128,15 +131,26 @@ header{
         font-style: italic;
         text-transform: uppercase;
     }
-
     .text-block{
-        max-width: 445px;
-
-        img{
-            max-width: 100%;
-        }
+        max-width: 500px;
+        margin-top: 112px;
+    }
+    .secondary-heading{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        color: variables.$grey-color;
     }
 
-
+    .get-started{
+        border: 0px solid;
+        border-radius: 0px;
+        padding: 14.5px 45px;
+        background-color: #000;
+        color: variables.$def-bg-color;
+        font-size: 20px;
+        margin-bottom: 55px;
+        margin-top: 55px;
+    }
 
 }
